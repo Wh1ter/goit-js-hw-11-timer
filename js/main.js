@@ -88,7 +88,7 @@ class CountdownTimer {
 //Timer
 const countdownTimer = new CountdownTimer({
     selector: "#timer-1",
-    targetDate: new Date(new Date().getTime() + 20000)
+    targetDate: new Date(new Date().getTime() + 120000)
 });
 
 countdownTimer.reflectInitialDate();

@@ -1,11 +1,27 @@
+body {
+    background-color: #FFDAB9;
+}
+
+.timer-name {    
+    text-align: center;
+    display: block;
+    padding: 100px;
+}
+
 .timer {
+    margin: auto;
+    align-items: center;
     display: flex;
     justify-content: space-between;
     max-width: 600px;
 }
 
 .field {
+    box-sizing: border-box;
+    border-radius: 25%;
+    border-color: red;
+    background-color: rgb(121, 211, 121);
     flex-basis: 200;
-    font-size: 24px;
-    color: green;
+    font-size: 30px;
+    color: rgb(206, 0, 0);
 }
